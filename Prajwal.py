@@ -132,7 +132,7 @@ async def handle_hack(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         await update.message.reply_text("Invalid input. Please enter a valid number.")
 
 def main() -> None:
-    application = Application.builder().token("7710512792:AAEfRD_1-KY9HluO3XPSC6c4Ao2rse2pNEA").build()
+    application = Application.builder().token("token_here").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("play", play))
