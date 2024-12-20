@@ -1,0 +1,2 @@
+pip install telegram
+pip install python-telegram-bot
